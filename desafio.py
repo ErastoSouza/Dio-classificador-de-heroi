@@ -2,6 +2,9 @@ print("Qual o nome do heroi?")
 nome = input()
 print("Quanto de experiencia o heroi tem?")
 xp = int(input())
+while(xp<0):
+    print("Quanto de experiencia o heroi tem?")
+    xp = int(input())
 rank = str
 if(xp <= 1000):
     rank = "Ferro"
